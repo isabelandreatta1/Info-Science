@@ -14,7 +14,7 @@ We learnt and developed our computational thinking skills.  In the first half of
 
 How long does it take to retain and learn a programming language? How and why do programming language differ? How does one create a separate programming language?  What type of projects will we be creating? What are the limits to coding? How do you simplify code? Once we create a code, what does each individual text mean/have an impact on?
 
-**Thursday February 20 
+**Thursday February 20**
 
 
 1. What did we **do**?
