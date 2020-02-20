@@ -36,7 +36,7 @@ Our next task was to code our own optical illusion based on one that I found on 
 
 
 We worked more on our computational skills of breaking down the big issue into smaller problems. For example, when we started 
-the task of creating the chess-like pattern, we broke down the different tasks needed to complete the whole image. I then applied this for 
+the task of creating the chess-like pattern, we broke down the different tasks needed to complete the whole image. I then applied this thinking for the optical illusion. I also always kept a copy of my previous codes (such as the dice one or the chess one) to see if there was anything that I learnt there which I could apply to my new code. I was able to use the "for loop" and the "offset" which we have learnt earlier as to help me with my new code. Furthermore, I was able to get a better grasp of how we can use variables to make code simpler, easier to follow and type.  
 
 1. What **questions** do I have? 
 
@@ -106,7 +106,6 @@ def draw():
     background(180)
     circles() 
     rectangle()
-
         
 def circles():
     stroke(0)
