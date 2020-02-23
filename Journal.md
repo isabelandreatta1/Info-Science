@@ -23,7 +23,7 @@ How long does it take to retain and learn a programming language? How and why do
 Chess-board Pattern Illusion: 
 
 
-First of all, we created a chess-like pattern by: placing black rectangles with the size of 50x50, 5 per row, and in alternating pattern. We first did this by making the size of the sketch 500x500 and making the background white. Then, we code 9 black lines, all of them with the different increment of 50 in the y axis. In order to repeat the line multiple times, we must use the "for loop". Once we have created the lines, we code the squares alongside the first row by using "for loop" again, coding 5 squares per row. We also noticed that every other row had the same allignment of squares, and so we can do this by changing the y coordinates of the squares by 100 (because each row is seperate by 50 units, having the squares will have an interval by 100 will mean that it will skip one row). Now that we have the squares for the odd rows, we can just copy and paste the same code that we used but instead of having the squares start from (0,0), we change it to 
+First of all, we created a chess-like pattern by: placing black rectangles with the size of 50x50, 5 per row, and in alternating pattern. We first did this by making the size of the sketch 500x500 and making the background white. Then, we code 9 black lines, all of them with the different increment of 50 in the y axis. In order to repeat the line multiple times, we must use the "for loop". Once we have created the lines, we code the squares alongside the first row by using "for loop" again, coding 5 squares per row. We also noticed that every other row had the same allignment of squares, and so we can do this by changing the y coordinates of the squares by 100 (because each row is seperate by 50 units, having the squares will have an interval by 100 will mean that it will skip one row). Now that we have the squares for the odd rows, we can just copy and paste the same code that we used but instead of having the squares start from (0,0), we change it so it starts at (100,100). With this, we have created the chess-board pattern background. However, we are not finished yet. We then have to add the part where it makes it into an optical illusion. To do this, we want to make it seem that the rows of squares move to the right every time we click. We break this task by creating an offset, which is the shift that occurs when we click. We first make it that every time we click, there will be one shift, and we define the shift/offset as 50. This means that it will move 50 on the x axis. Then we go back to our code of the rectangles, and we add the offset to the x coordinates for our rectangles. With this, then the task is complete and we have a chessboard that the rectangles will move when we click, therefore, creating the optical illusion that the rows are not straight, when in fact they are. 
 
 
 Optical Illusion: 
@@ -70,6 +70,7 @@ def lines():
 def rectangles():
     stroke(255)
     fill(0)
+    #These are the even rows 
     y = 0 
     for row in range(5):
         x = 0 
@@ -77,7 +78,7 @@ def rectangles():
             rect(x,y,50,50)
             x = x + 100 
         y = y + 100
-    #This are the odd rows 
+    #These are the odd rows 
     y = 50  
     global offset 
     for row in range(5):
