@@ -128,3 +128,48 @@ def rectangle():
     rect(x,x,h,h)
     
 ``` 
+
+March 2
+
+What did we **do**?
+
+
+Due to the fact that I am not on campus, Dr Ruben sent us a couple videos to choose from where we can do some basic coding. I followed an online tutorial on how to create generative art, meaning that this art that is produced by an “autonomous system” (meaning it makes decisions independently to the creator). The end product will be 1000 differently colored circles, overlapping each other, with a shadow. For this sketch, the variables that I do not control power of is the location of the each individual circle, the direction of the shadow and the specific color for each circle — those have been randomly assigned. 
+
+
+What did we learn?
+
+
+What questions do I have?
+
+
+Below is my code: 
+
+
+```py 
+def setup():
+    size(1000,1000)
+    background(255)
+    
+    for c in range(1000):
+        centre_x = random(100,900)
+        centre_y = random(100,800)
+        #so it doesnt go out of border because size is 1000x1000
+        cs = 50
+
+        noStroke()
+        fill(15,15,15,2)
+        #Creating 30 circles that overlap and decrease in size with low opacity to make appear blurry
+        for i in range(30):
+            circle(centre_x, centre_y, cs - i*5)
+    
+    #Draw Circle Side 1 
+        stroke(0)
+        #increased red value with 200 
+        fill(random(200, 255),random(30,255),random(50,255))
+        #-25 so there is a shift from the shadow from the circle 
+        circle(centre_x - 25, centre_y - 25, cs)
+
+     #opacity, or 5, is out of 255
+
+``` 
