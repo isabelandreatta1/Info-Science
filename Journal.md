@@ -144,7 +144,7 @@ This task taught me more about how python in processing works and expanded my un
 What questions do I have?
 
 
-What are other examples of generative art? How would it be able to make this into a gif/in motion? For example, would it be possible to make the shadows move according to a single ight source? How can I increase user interaction? Is there any way to create options as so if the user does something (such as click buttons) , there are different outcomes. How can I create a reset button? 
+What are other examples of generative art? How would it be able to make this into a gif/in motion? For example, would it be possible to make the shadows move according to a single light source? How can I increase user interaction? Is there any way to create options as so if the user does something (such as click buttons) , there are different outcomes. How can I create a reset button? 
 
 
 Below is my code: 
