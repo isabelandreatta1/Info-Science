@@ -177,3 +177,45 @@ def setup():
      #opacity, or 5, is out of 255
 
 ``` 
+ 
+ **Thursday 2nd April 2020**
+ 
+ What are some ways in which Computer Science can help the fight against Covid-19?
+In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?
+
+ There is still a lot that is unknown about the coronavirus, with scientists having limited understanding of how it works and technology in helping them find out. One feasible technique that scientists have been employing is using simulators in order to understand  how proteins work, an essential element to understanding the virus. However, these simulations require a lot of computational power -- much more than what most universities and laboratories have access to. In order to increase the accessibility, instead of doing the calculations through one computer, a Stanford program has alternatively created a network of many computers in order to do calculations. The computers that make up the network pertain to individuals and a software runs once the computer is not being used. The program states that it has heavy security measures from hacking in place. I think it could be a good alternative considering lack of accessibility. There is an urgent need to get information as soon as possible; finding a cure, a vaccine or any methods to prevent/cure of the virus may take months to year(s) and so gathering information is critical. Looking at Fold@Home, the Stanford program, they have done significant work towards understanding protein, however, it is a tedious process, with lack of some holistic “discovery”, and so perhaps this also looks more like a long-term solution rather than a quick one. In terms of risks, I could not find any cases of intrusion even though Fold@Home has been in place for many years, and only could find websites that praise the program’s security for both the research and the volunteers. So the risks are minimal, but it would always be better to use firewalls in order to maximise the security. 
+    
+  
+  
+```py
+#defintions of variables
+x = [50,100,150,200,250,300,350,400,450,500] #use brackets to represent list
+y = [50,100,150,200,250,300,350,400,450,500] 
+
+def setup():
+    size(500,500)
+    
+def draw():
+    background(255)
+    strokeWeight(2)
+    global x, y 
+    
+    #First individual 
+    for i in range(10):
+        circle(x[i],y[i],40)
+        x[i] = y[i] + random(-10,10)
+        y[i] = x[i] + random(-10,10)
+        
+        if x[i] > 500:
+            x[i] = 500
+        if x[i] < 0:
+            x[i] = 0 
+        if y[i] > 500:
+            y[i] = 500
+        if y[i] < 0:
+            y[i] = 0
+
+ 
+    delay(100) 
+``` 
+   
