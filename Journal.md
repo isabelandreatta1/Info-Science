@@ -190,7 +190,7 @@ In your opinion, should people enable access to the resources of their personal 
 What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.
 
 
-   One change would make our simulation more realistic which replicates human behaviour would be staying in close proximity to those similar to you. This can be done, for example, by assigning individuals nationality, and making them stick more often than those with different nationalities. Or it can be family groups, interests, occupation, age bracket, etc. Another behaviour would be how the virus affects people depending on their age and health. While it is equally contagious, long incubation period and mild symptoms might not deter people from continuing to meet up with people, and so that's another thing to take in account.  Lastly, 
+ One change would make our simulation more realistic which replicates human behaviour would be staying in close proximity to those similar to you. This can be done, for example, by assigning individuals nationality, and making them stick more often than those with different nationalities. Or it can be family groups, interests, occupation, age bracket, etc. Another behaviour would be how the virus affects people depending on their age and health. While it is equally contagious, long incubation period and mild symptoms might not deter people from continuing to meet up with people, and so that's another thing to take in account.  Lastly, this relates to the first point, but there are going to be areas of high population density and typically with younger people. These concentrated areas can be thought of as the centre of a city. 
   
   
 **What did we do?**
@@ -200,6 +200,10 @@ First of all, we had to read and analyse an article which shows how personal com
 
 
 **What did I learn?**
+
+
+The article was quite helpful, in regards to both learning new facts and also pushing our ideas of what “research” is and how we can help with the coronavirus. During this assignment, on the other hand, we were introduced to a few new concepts. The most important concepts we learnt were creating a list in python and the append function, which is used within lists. In addition, because we were instructed to find the information by ourselves, instead of telling us directly, it helped me understand the append function more. I did have struggles, however, with the format (I found the append function but I didn’t know how to apply it in our code) and so I had to rely on other people.  I also ran into other issues because of carelessness, and I was glad that I had to figure out how to fix it by myself. This is because I helped train my precision and also made sure that I double-check what I write. 
+
 
 **What questions do I have?** 
 
