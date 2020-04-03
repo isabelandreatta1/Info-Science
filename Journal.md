@@ -189,11 +189,14 @@ In your opinion, should people enable access to the resources of their personal 
   
 ```py
 #defintions of variables
-x = [50,100,150,200,250,300,350,400,450,500] #use brackets to represent list
-y = [50,100,150,200,250,300,350,400,450,500] 
-
+x = []
+y= []
+    
 def setup():
     size(500,500)
+    for i in range(10):
+          x.append(random(0, 500))
+          y.append(random(0, 500))
     
 def draw():
     background(255)
@@ -203,8 +206,8 @@ def draw():
     #First individual 
     for i in range(10):
         circle(x[i],y[i],40)
-        x[i] = y[i] + random(-10,10)
-        y[i] = x[i] + random(-10,10)
+        x[i] = x[i] + random(-10,10)
+        y[i] = y[i] + random(-10,10)
         
         if x[i] > 500:
             x[i] = 500
@@ -215,7 +218,9 @@ def draw():
         if y[i] < 0:
             y[i] = 0
 
- 
     delay(100) 
+    
 ``` 
+
+
    
