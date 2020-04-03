@@ -207,8 +207,9 @@ The article was quite helpful, in regards to both learning new facts and also pu
 
 **What questions do I have?** 
 
-  
-  
+I am curious to what extent can lists be used and what other situations can they be used and manipulated. Also, to what extent can we make a realistic simulation in processing (of course limited) and if we could try to input some data of a sample group and create a simulation on how it would spread (in a simplified form). I had some struggles with adding an image to Github's repository. 
+
+
 ```py
 #defintions of variables
 x = []
