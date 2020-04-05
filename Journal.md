@@ -196,7 +196,17 @@ What should be some behaviours (at least 3) that we will need to include in our 
 **What did we do?**
 
 
-First of all, we had to read and analyse an article which shows how personal computers can help with the coronavirus. More specifically, it presents a program that Stanford created, in which a network of personal computers will complete calculations for models/simulation on understanding protein. Protein is a critical part to understanding the virus and the network is an alternative power as to using one single computer. Secondly, we started on creating a simulation of the coronavirus and how it spreads. We first did this by creating a one circle, which represents one individual, and made it move around with random coordinates. We made it move by, first defining its position, and then coding the coordinates to change by adding a randomised number between -10 and 10. We also added boundary conditions so that the circle can not move outside of the visible plane. The next part of the simulation was to have multiple individuals. Through the tutorials, we learnt how to make this with the “for loop” and by creating a list. Our task was to learn how to create 10 individuals without manually typing the specific coordinates and by using the setup function. With research, coupled with collaborating with other students, we found out that we need to use the append method/function. 
+First of all, we had to read and analyse an article which shows how personal computers can help with the coronavirus. More specifically, it presents a program that Stanford created, in which a network of personal computers will complete calculations for models/simulation on understanding protein. Protein is a critical part to understanding the virus and the network is an alternative power as to using one single computer. Secondly, we started on creating a simulation of the coronavirus and how it spreads. We first did this by creating a one circle, which represents one individual, and made it move around with random coordinates. We made it move by, first defining its position, and then coding the coordinates to change by adding a randomised number between -10 and 10. We also added boundary conditions so that the circle can not move outside of the visible plane. The next part of the simulation was to have multiple individuals. Through the tutorials, we learnt how to make this with the “for loop” and by creating a list. Our task was to learn how to create 10 individuals without manually typing the specific coordinates and by using the setup function. With research, coupled with collaborating with other students, we found out that we need to use the append method/function. The append function is a function that inserts items in an already created list. So firstly, we need to create an empty list. We do this by assigning the x and y with nothing so its
+```py 
+x = [] and y = [].
+```
+Then, on top of the code for the indinviduals, we use the append function. This is because it will affect everything below it. So: 
+```py 
+for i in range(10):
+    x.append(random(0,500))
+    y.append(random(0,500)
+``` 
+**This means that we have inserted 10 values with any random x and y coordinate between the range of 0 and 500.**
 
 
 **What did I learn?**
