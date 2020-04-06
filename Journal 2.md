@@ -1,4 +1,4 @@
-** Monday 6th April 2020**
+**Monday 6th April 2020**
 
 Code for bear 
 ```py 
