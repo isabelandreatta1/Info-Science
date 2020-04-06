@@ -1,0 +1,6 @@
+```py 
+#repeat 100 times
+for b in range(101):
+    print'bears',(b) #1,2,3,4...100 
+    
+``` 
