@@ -1,5 +1,11 @@
 **Monday 6th April 2020**
 
+**What did we do**
+
+**What we learnt**
+
+**What questions do I have** 
+
 1. Code for bear 
 ```py 
 #repeat 100 times
@@ -18,4 +24,3 @@ for c in range(100):
     f = c * 1.8 + 32 #formula, had to change 9/5 from fraction to decimal 
     print c,'C are','F', f
 ```
-
