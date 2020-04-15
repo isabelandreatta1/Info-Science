@@ -10,6 +10,14 @@ In this assignment, we had to do three major tasks. The first task was to practi
 
 **What questions do I have** 
 
+| Case Number  | Number of people moving |Population size | Number of iterations until all infected | 
+| ------------- | ------------- | ------------- | -------------  | 
+| 1  | 1 |  25 | 1279 | 
+| 2 | 2 | 25 | 
+| 3 | 4 | 25 | 
+| 4 | 8 | 25 | 
+|5 | 16 | 25 | 
+
 **What conclusion can you draw from the simulations you run in step 3. Explain.**
 
 
