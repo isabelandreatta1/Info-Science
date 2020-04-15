@@ -1,10 +1,5 @@
 **Monday 6th April 2020**
 
-**What conclusion can you draw from the simulations you run in step 3. Explain.**
-
-
-**Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.** 
-
 
 **What did we do**
 
@@ -14,6 +9,12 @@ In this assignment, we had to do three major tasks. The first task was to practi
 **What we learnt**
 
 **What questions do I have** 
+
+**What conclusion can you draw from the simulations you run in step 3. Explain.**
+
+
+**Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.** 
+
 
 1. Code for bear 
 ```py 
@@ -35,6 +36,91 @@ for c in range(100):
 ```
 4. Code for coronavirus simulation & bar graph/counting roll 
 ```py 
+#defintions of variables
+x = []
+y= []
+h = [False, True] #False => infected 
+hi = 0 #healthy individual
+uh = 0 #unhealthy individual
+c = 0 
+bar = 0 
 
+    
+def setup():
+    size(500,500)
+    for i in range(25):
+          x.append(random(0, 500))
+          y.append(random(0, 500))
+          h.append(True) #All Health 
+          barGraph()
+          
+def distance(x1,x2,y1,y2):
+    a = (x1 - x2) 
+    b = (y1- y2)
+    c = sqrt(a**2 + b**2) 
+    return c #output of function 
+    
+def draw():
+    background(255)
+    strokeWeight(2)
+    global x, y, hi, uh, c, bar
+    barGraph()
+    c += 1
+    if hi == 25:
+        con -= 1
+    
+    #First individual 
+    for ind in range(len(x)):
+        if h[ind] == True:
+            fill(255)
+        else:
+            fill(255,0,0) #infected
+
+        circle(x[ind],y[ind],40)
+        #calculate the distance from the neighbour 
+        for nei in range(len(x)):
+            if nei == ind:
+                continue 
+            d = distance(x[ind],x[nei],y[ind],y[nei]) 
+            if d < 40 and(h[nei] == False  or h[ind] == False): 
+                           #infection happens  
+                           h[ind] = False
+                           h[nei] = False 
+        #move individuals
+        x[ind] = x[ind] + random(-10,10)
+        y[ind] = y[ind] + random(-10,10)
+        
+        if x[ind] > 500:
+            x[ind] = 500
+        if x[ind] < 0:
+            x[ind] = 0 
+        if y[ind] > 500:
+            y[ind] = 500
+        if y[ind] < 0:
+            y[ind] = 0
+            
+    delay(75) 
+        
+    uh = 0
+    hi = 25
+    for bar in range (25):
+        if h[bar] == False:
+            uh += 1 
+            hi -= 1
+            
+    textSize(10)
+    fill(0)
+    text('Infected', 445, 478)
+    text('Healthy', 445, 458)
+    text(c, 80,470)
+    text("Iteration #:", 20, 470)
+        
+def barGraph():
+    strokeWeight(1)
+    stroke(0)
+    fill(255,0,0)
+    rect(440,470, - uh*2,8) #bar graph for those infected
+    fill(255)
+    rect(440,450, - hi*2,8)  #bar graph for those healthy      
 
 ```
