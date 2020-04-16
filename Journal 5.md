@@ -12,6 +12,8 @@ This assignment had a multitude of different tasks, which incoorperated equally 
 
 **What questions do I have** 
 
+What other type of variables can we add to make it more realistic? Can we make a simulation based on real data? What other formats or how can we extrapolate more data from the simulation? 
+
 Below I have put the table and responses to task 3: 
 
 | Case Number  | Number of people moving |Population size | Number of iterations until all infected | 
