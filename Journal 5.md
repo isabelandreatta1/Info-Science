@@ -12,6 +12,8 @@ This assignment had a multitude of different tasks, which incoorperated equally 
 
 **What questions do I have** 
 
+Below I have put the table and responses to task 3: 
+
 | Case Number  | Number of people moving |Population size | Number of iterations until all infected | 
 | ------------- | ------------- | ------------- | -------------  | 
 | 1  | 1 |  25 | 120 | 
@@ -21,9 +23,18 @@ This assignment had a multitude of different tasks, which incoorperated equally 
 |5 | 16 | 25 | 75|
 
 **What conclusion can you draw from the simulations you run in step 3. Explain.**
+The most notable trend that we can observe from the table is that the number of people moving and number of iterations have an inverse relationship, meaning that as the number of people moving increases, the number of iteractions decrease. In a real world situation, it would mean that the more people are moving, the rate of spread increases. This is because it creates a sort of domino or chain effect: instead of having one person that needs to have contact with each person, having multiple people move instead makes it so 
 
 
 **Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.** 
+
+| Case Number  | Number of people moving |Population size | Movement size | 
+| ------------- | ------------- | ------------- | ------------- | 
+| 1  | 1 |  50 | 5 |
+| 2 | 1 | 50 | 10 |
+| 3 | 1 | 50 | 20 |
+| 4 | 1 | 50 | 40 |
+|5 | 1 | 50 | 80 |
 
 
 1. Code for bear 
