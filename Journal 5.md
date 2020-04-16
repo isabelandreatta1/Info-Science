@@ -23,7 +23,7 @@ Below I have put the table and responses to task 3:
 |5 | 16 | 25 | 75|
 
 **What conclusion can you draw from the simulations you run in step 3. Explain.**
-The most notable trend that we can observe from the table is that the number of people moving and number of iterations have an inverse relationship, meaning that as the number of people moving increases, the number of iteractions decrease. In a real world situation, it would mean that the more people are moving, the rate of spread increases. This is because it creates a sort of domino or chain effect: instead of having one person that needs to have contact with each person, having multiple people move instead makes it so 
+The most notable trend that we can observe from the table is that the number of people moving and number of iterations have an inverse relationship, meaning that as the number of people moving increases, the number of iteractions decrease. In a real world situation, it would mean that the more people are moving, the rate of spread increases. This is because it creates a sort of domino or chain effect. For example, instead of having one person that needs to have contact with each person, having just one more person can increase the number of people infected exponentially. 
 
 
 **Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.** 
