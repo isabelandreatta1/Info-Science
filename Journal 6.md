@@ -1,12 +1,21 @@
-**Friday April 24**
+**Saturday April 25**
 
 **What did we do?**
-This week we added a new feature to the simulation to make it more realistic: the recovery. This meant that we had to code an x amount of time after the individual is infected in which it will recover. The second part is to then create a bargraph for the recovered individuals. This assingment was particularly difficult so I had was only able to create a third category, but ran into some problems with the recovery section as well as how to assign the bargraph for the recovered. The first step we had to take was to replace all the boolean expressions (truth and false) into string. This way, we could create a third category (the recovery). The next step was to create a list for days and use the append function. Firstly, the way we measured days would be by the amount of iterations. The way it would work is that the program will detect once an individual has recovered once passed an x amount of days. The list for days would be a range from -1 to x (amount of days). -1 would signify the individual is healthy, x is sick and 0 would be recovered. I made the days till' recovery any random integer from 5 to 30. This way it is more realitstic and has an extra automatated feautred. We also had to add "recovery" to the count and colour of individuals. 
+
+
+This week we added a new value to the simulation to make it more realistic: the recovery. This meant that we had to code an x amount of time after the individual is infected in which it will recover. The second part is to then create a bargraph for the recovered individuals. This assingment was particularly difficult so I had was only able to create a third category, but ran into some problems with the recovery section as well as how to assign the bargraph for the recovered. The first step we had to take was to replace all the boolean expressions (truth and false) into string. This way, we could create a third value (the recovery). The next step was to create a list for days and use the append function. Firstly, the way we measured days would be by the number of iterations. The way it would work is that the program will detect once an individual has recovered once passed an x amount of days. The list for days would be a range from -1 to x (amount of days). -1 would signify the individual is healthy, x is sick and 0 would be recovered. I made the days till' recovery any random integer from 5 to 30. This way it is more realitstic and has an extra automatated feautred. We also had to add "recovery" to the count and colour of individuals. 
 
 **What we learnt?**
-In a more technical way, we learnt about string, how to add a third cateogry (for example, previously we had been working with if a else b, but by adding recovery we c an write "if a, elif c, else). 
+
+
+In a more technical way, we learnt about string, how to add a third value(for example, previously we had been working with if a else b, but by adding recovery we c an write "if a, elif c, else). Furthermore, we furthered our understanding about lists because last time we were briefly introduced to them and instead created an empty list. Of course, in a general sense, the more practice we have with coding, the more we develop the computational skills. This is because we have sections of the codes that are not complete so we have to problem solve in how we can find the solutions and make sure that we understand what we are doing. Without understanding the code nor understanding what the objectives are, progress is difficult. 
 
 **What questions do I have?** 
+
+
+Other than how do improve my code so it works, I wonder whether we can add another value or feature where once an individual has recovered, that person is less succeptible to getting the virus. Also, a small but bothersome issue I found was that the individuals overlap the bargraph so it's not visible. So I also wonder how to make it so the bargrpah is on the "upper layer" or "foreground." 
+
+Below is my code for this week: 
 
 
 ```py
