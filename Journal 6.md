@@ -138,3 +138,4 @@ def barGraph():
          
         
    ``` 
+Edit: On April 27, I found and fixed the problems in my code
