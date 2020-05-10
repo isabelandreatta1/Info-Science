@@ -23,5 +23,8 @@ The man at the booth wrote "your weight" on the piece of paper.
 **Cicada 3301**
 
 
+Cicada 3301's puzzles all had complicated tasks, however, generally followed a similar pattern in terms of where they hi their clues. Firstly, the would have a message that could be found from the original image posted. In the first puzzle, they took the dimmensions of the image and put it into a link. From then, there would be a mixture of different puzzles. These would be, for example, finding the coordinated to  posters in different international locations. They also hid clues within riddles, and even used a song. The most common and repetative thread that Cicada 3301 was by putting their messages inside of books. Many clues were written down in Cicada's book, Liber Primus, which was written in runes.  
+
+
 **Compare your cypher to the Cesar Cipher**
 
