@@ -31,6 +31,6 @@ Cicada 3301's puzzles all had complicated tasks, however, generally followed a s
 
 Below is the link for my images of my Ceaser Cipher and Playfair Cipher. 
 
-https://drive.google.com/drive/u/0/folders/1b8pqU_edOVzeZawL8dR_kBZUPFTaBrCm
+https://drive.google.com/open?id=1b8pqU_edOVzeZawL8dR_kBZUPFTaBrCm 
 
 
