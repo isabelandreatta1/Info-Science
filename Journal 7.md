@@ -26,7 +26,9 @@ The man at the booth wrote "your weight" on the piece of paper.
 Cicada 3301's puzzles all had complicated tasks, however, generally followed a similar pattern in terms of where they hi their clues. Firstly, the would have a message that could be found from the original image posted. In the first puzzle, they took the dimmensions of the image and put it into a link. From then, there would be a mixture of different puzzles. These would be, for example, finding the coordinated to  posters in different international locations. They also hid clues within riddles, and even used a song. The most common and repetative thread that Cicada 3301 was by putting their messages inside of books. Many clues were written down in Cicada's book, Liber Primus, which was written in runes.  
 
 
-**Compare your cypher to the Cesar Cipher**
+**Compare your cipher to the Ceasar Cipher**
+The way the Ceaser Cipher works is that it shifts the alphabet by an x value. As mentioned before, it is considered as a monoalphabetic cipher, which means that the input letter will always be the same output letter. The way to crack a monoalphabetic cipher is either by trying every single combinatio possible (which isn't too hard for the Ceaser Cipher considering there are only 26 letters in the English alphabet) or frequency analysis. Frequency analysis the analysing how often do certain letters come up. This is because each language tends to have a letter than pops up most often, for the case of English it is "E". Another way to decrypt a code is by using cribs, which are words you presume will show up often. Using cribs, however, doesn't apply to just monoalphabetic ciphers. The cipher I picked, however, is a polyalphabetic cipher. This means that if we input a letter, it will turn out with a different output. The Playfair cipher has 600 possible combinations, while the Ceaser cipher has only 25.  
+
 
 
 Below is the link for my images of my Ceaser Cipher and Playfair Cipher. 
