@@ -40,6 +40,7 @@ The way the Playfair cipher works is that we encrypt and decrypt in groups of tw
 
 **3. If 2 letters create a box, then use the letter on the direct opposite side of the box.**
 
+In order to decrypt, we must know the key (in this case "exist" and remove the J) and use the rules exactly as we would encrypt our message.
 
 Below is the link for my images of my Ceaser Cipher and Playfair Cipher. 
 
