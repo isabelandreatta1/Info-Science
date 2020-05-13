@@ -27,7 +27,17 @@ Cicada 3301's puzzles all had complicated tasks, however, generally followed a s
 
 
 **Compare your cipher to the Ceasar Cipher**
-The way the Ceaser Cipher works is that it shifts the alphabet by an x value. As mentioned before, it is considered as a monoalphabetic cipher, which means that the input letter will always be the same output letter. The way to crack a monoalphabetic cipher is either by trying every single combinatio possible (which isn't too hard for the Ceaser Cipher considering there are only 26 letters in the English alphabet) or frequency analysis. Frequency analysis the analysing how often do certain letters come up. This is because each language tends to have a letter than pops up most often, for the case of English it is "E". Another way to decrypt a code is by using cribs, which are words you presume will show up often. Using cribs, however, doesn't apply to just monoalphabetic ciphers. The cipher I picked, however, is a polyalphabetic cipher. This means that if we input a letter, it will turn out with a different output. The Playfair cipher has 600 possible combinations, while the Ceaser cipher has only 25.  
+The way the Ceaser Cipher works is that it shifts the alphabet by an x value. As mentioned before, it is considered as a monoalphabetic cipher, which means that the input letter will always be the same output letter. The way to crack a monoalphabetic cipher is either by trying every single combinatio possible (which isn't too hard for the Ceaser Cipher considering there are only 26 letters in the English alphabet) or frequency analysis. Frequency analysis the analysing how often do certain letters come up. This is because each language tends to have a letter than pops up most often, for the case of English it is "E". Another way to decrypt a code is by using cribs, which are words you presume will show up often. Using cribs, however, doesn't apply to just monoalphabetic ciphers. The cipher I picked, however, is a polyalphabetic cipher. This means that if we input a letter, it will turn out with a different output. The Playfair cipher has 600 possible combinations, while the Ceaser cipher has only 25. The format of the cipher is a 5x5 grid, in which we put each letter of the alphabet in the grid. Because it has only 25 spots, we have to eliminate one letter, preferably one that is not commonly used (such as x).The way it works is that we encrypt and decrypt in groups of two, and the relationship between the two letters on the grid will determine the output/input. If we choose any two letters on the alphabet it will follow one of these 3 possibilies, in which each one will have a different rule. These are: 
+
+
+**1. If 2 letters are in the same column, then use two letters directly below them.**
+
+
+**2. If 2 letters will be in the same row, then use the two letters directly on each of their right.**
+
+
+**3. If 2 letters create a box, then use the letter on the direct opposite side of the box.**
+
 
 
 
