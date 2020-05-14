@@ -1,4 +1,4 @@
-**May 29 2020**
+**May 9 2020**
 
 
 **What did we do?**
@@ -9,13 +9,17 @@ This week we learnt about cryptography by first, watching a few videos, and then
 
 **What did we learn?**
 
-- cipher + key
+
+In general, we had a good and interactive introduction to cryptography. We first learnt about the Ceaser cipher, and through that, we learnt about the most important elements of cryptography: the cipher and the key. We also learnt about the history of it and we able to compare the Ceaser cipher to the enigma machine. We learnt the basics of how an enigma machine worked and also how it can be turned into a paper one. With the Cicada 3301, we learnt about the complexities of cryptography and the various different forms it can takes (as our case studies were constricted within alphabets). Lastly, by creating our own cipher, it meant that we had to really understand the cipher and how it worked. 
 
 
 **What questions do I have?** 
 
 
+How does cryptography then translate to modern day on the computer? How is cryptology used within organisations or the government (if it is more than just digital)? How does linguistics tie in with cryptogrpahy(pre-WWII)? 
+
 **Response to riddle**
+
 
 The man at the booth wrote "your weight" on the piece of paper. 
 
