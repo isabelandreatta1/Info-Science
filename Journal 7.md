@@ -16,7 +16,7 @@ In general, we had a good and interactive introduction to cryptography. We first
 **What questions do I have?** 
 
 
-How does cryptography then translate to modern day on the computer? How is cryptology used within organisations or the government (if it is more than just digital)? How does linguistics tie in with cryptogrpahy(pre-WWII)? 
+How does cryptography translate to modern day on the computer? How is cryptology used within organisations or the government (if it is more than just digital)? How does linguistics tie in with cryptogrpahy(pre-WWII)? 
 
 **Response to riddle**
 
